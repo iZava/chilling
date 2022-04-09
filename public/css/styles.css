@@ -1,35 +1,41 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body {
-  font-family: "Roboto Mono", monospace;
-  background: #4568dc;
-  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
-  background: linear-gradient(to right, #b06ab3, #4568dc);
+font-family: "Roboto Mono", monospace;
+background: #4568dc;
+background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+background: linear-gradient(to right, #b06ab3, #4568dc);
 }
 
-.header {
-  margin-bottom: -1px;
-  padding-top: 30px;
-  text-align: center;
-}
+/* .header {
+margin-bottom: -1px;
+padding-top: 30px;
+text-align: center;
+} */
 
 .navbar-brand{
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s;
 }
+
+.navbar-brand:hover{
+  font-size: 35px;
+}
+
 .color-acento{
-    color: #7545dc;
-    font-size: 35px;
+  color: #7545dc;
+  font-size: 35px;
 }
 
 .fa-youtube{
-    color:white;
-    transition: color 1s;
+  color:white;
+  transition: color 1s;
 }
 
 .fa-youtube:hover{
-    color:rgb(242, 59, 59);
+  color:rgb(242, 59, 59);
 }
