@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background: #4568dc;
+  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);
+}
+
+.header {
+  margin-bottom: -1px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.color-acento{
+    color: #7545dc;
+    font-size: 35px;
+}
+
+.fa-youtube{
+    color:white;
+    transition: color 1s;
+}
+
+.fa-youtube:hover{
+    color:rgb(242, 59, 59);
+}
